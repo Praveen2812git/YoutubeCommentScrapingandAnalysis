@@ -113,12 +113,12 @@ def scrapfyt(url):
 
   driver.close()
 
-  print("Scraping is finished")
+  # print("Scraping is finished")
 
   ## return fuction
 
   return all_comments, video_title, video_owner, video_comment_with_replies, video_comment_without_replies
 
 # if __name__ == "__main__":
-#   url = "https://www.youtube.com/watch?v=VtItg-J6-CI"
+#   url = ""
 #   scrapfyt(url)
