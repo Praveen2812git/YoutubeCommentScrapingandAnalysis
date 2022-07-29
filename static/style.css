@@ -1,0 +1,124 @@
+body{
+    background-color: #E3E2DF;
+    /*background-image: 'images/image1.jpg';*/
+    /*background-repeat:no-repeat;*/
+    text-align: center;
+    background-size: 100%;
+}
+
+/*letter style*/
+h{
+    color: green;
+    font: "Script MT Bold";
+    margin: 20px;
+    font-size: 1em;
+}
+h1{
+    color: #E85A4F;
+    font: "Script MT Bold";
+    margin: 20px;
+    font-size: 1.8em;
+}
+h3{
+    color: palevioletred;
+    font-size: 1.3em;
+}
+.res_mes{
+    text-align: left;
+    color: slategrey;
+    font-size: 1.2em;
+}
+.pos_head{
+    color: green;
+    font-size: 1.4em;
+    margin: 10px;
+}
+.neg_head{
+    color: red;
+    font-size: 1.4em;
+    margin: 10px;
+}
+
+/*input style*/
+input{
+    color: black;
+    background-color: #E3E2DF;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    border: solid 2px darkslategray;
+    border-radius: 10px;
+    font: Georgia;
+    font-size: 1em;
+}
+input:focus{
+    border: solid 2px darkslategray;
+    outline: none;
+    background-color: darkgray;
+}
+input:hover{
+    background-color: darkgray;
+}
+
+/*table style*/
+table{
+    text-align: left;
+    border-spacing: 0px;
+    margin: 2rem;
+    background-color: white;
+}
+tr{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #C0C0C0;
+}
+tr:hover{
+    background-color: #708090;
+}
+
+/*scrap button style*/
+#scrap_button{
+    background-color: #E98074;
+    color: lightyellow;
+    width: 200px;
+    height: 35px;
+    border: none;
+}
+#scrap_button:hover{
+    background-color: #E85A4F;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+#scrap_button:focus{
+    border: none;
+}
+
+/*loading style*/
+#loading{
+  margin: 60px;
+  display: none;
+  position: relative;
+}
+#loading span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: darkslategray;
+  /*text-transform: uppercase;*/
+  animation: flip 5s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg)
+  }
+}
+
+img{
+    size: 100px 100px;
+}
+
