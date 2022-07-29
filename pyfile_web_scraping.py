@@ -26,7 +26,7 @@ def scrapfyt(url):
   ## Opening chrome and url
 
   option = webdriver.ChromeOptions()
-  option.binary_location = os.environ.get("GOOGLE_CHROME_BIN")  # For cloud
+#   option.binary_location = os.environ.get("GOOGLE_CHROME_BIN")  # For cloud
   option.add_argument('--headless')
   option.add_argument('-no-sandbox')
   option.add_argument("--disable-infobars")
@@ -39,7 +39,7 @@ def scrapfyt(url):
 
   driver = webdriver.Chrome(service = Service(options = option)  # For cloud
 
-  driver.set_window_size(960, 800)      # minimizing window to optimum because of youtube design of
+  # driver.set_window_size(960, 800)    # minimizing window to optimum because of youtube design of
                                         # right side load videos recommendations. When in max window,
                                         # while scrolling comments, it cannot be able to load correctly
                                         # due to the video recommendations in the right side.
