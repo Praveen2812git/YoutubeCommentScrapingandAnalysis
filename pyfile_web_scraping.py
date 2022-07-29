@@ -1,5 +1,7 @@
 
 ## Imports
+import undetected_chromedriver as uc  # For cloud
+uc.install()  #For cloud
 
 import selenium
 from selenium import webdriver
@@ -27,11 +29,15 @@ def scrapfyt(url):
   option.binary_location = os.environ.get("GOOGLE_CHROME_BIN")  # For cloud
   option.add_argument('--headless')
   option.add_argument('-no-sandbox')
+  option.add_argument("--disable-infobars")
+  option.add_argument("--disable-gpu")
+  option.add_argument("--mute-audio")
+  option.add_argument("--disable-extensions")
   option.add_argument('-disable-dev-shm-usage')
 
   # driver = webdriver.Chrome(service=Service("C:/chrome extension/chromedriver.exe"), options=option) # For testing in windows
 
-  driver = webdriver.Chrome(service = Service(executable_path = os.environ.get("chromedriver")), options = option)  # For cloud
+  driver = webdriver.Chrome(service = Service(options = option)  # For cloud
 
   driver.set_window_size(960, 800)      # minimizing window to optimum because of youtube design of
                                         # right side load videos recommendations. When in max window,
