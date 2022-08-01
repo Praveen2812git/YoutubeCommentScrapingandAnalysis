@@ -39,7 +39,7 @@ def scrapfyt(url):
 
   driver = webdriver.Chrome(service = Service(options = option))  # For cloud
 
-  driver.set_window_size(960, 800)    # minimizing window to optimum because of youtube design of
+  driver.set_window_size(960, 800)      # minimizing window to optimum because of youtube design of
                                         # right side load videos recommendations. When in max window,
                                         # while scrolling comments, it cannot be able to load correctly
                                         # due to the video recommendations in the right side.
