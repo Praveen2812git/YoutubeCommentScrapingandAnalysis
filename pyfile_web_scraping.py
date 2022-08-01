@@ -25,7 +25,7 @@ def scrapfyt(url):
 
   ## Opening chrome and url
 
-  option = webdriver.ChromeOptions()
+  option = webdriver.Options()
   option.binary_location = os.environ.get("GOOGLE_CHROME_BIN")  # For cloud
   option.add_argument('--headless')
   option.add_argument('-no-sandbox')
