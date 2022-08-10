@@ -124,7 +124,3 @@ def scrapfyt(url):
   ## return fuction
 
   return all_comments, video_title, video_owner, video_comment_with_replies, video_comment_without_replies
-
-# if __name__ == "__main__":
-#   url = ""
-#   scrapfyt(url)
