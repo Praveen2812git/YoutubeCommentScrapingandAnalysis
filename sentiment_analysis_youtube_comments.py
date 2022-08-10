@@ -69,7 +69,3 @@ def sepposnegcom(comment_file):
 
     ## return function
     return positive_comments, negative_comments, video_positive_comments, video_negative_comments
-
-# if __name__ == "__main__":
-#     comment_file = "Full Comments (2).csv"
-#     sepposnegcom(comment_file)
