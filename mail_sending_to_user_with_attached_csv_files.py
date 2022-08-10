@@ -42,7 +42,3 @@ def mailsend(emailto):
   server.login(username,password)
   server.sendmail(emailfrom, emailto, msg.as_string())
   server.quit()
-
-# if __name__ == "__main__":
-#   emailto = "praveenkumar281220@gmail.com"
-#   mailsend(emailto)
