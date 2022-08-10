@@ -1,7 +1,5 @@
 
 ## Imports
-# import undetected_chromedriver as uc  # For cloud
-# uc.install()  #For cloud
 
 import selenium
 from selenium import webdriver
