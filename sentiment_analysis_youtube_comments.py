@@ -3,6 +3,7 @@
 import pandas as pd
 import csv
 import nltk
+import os.path as checkcsv
 
 ## Downloads
 
