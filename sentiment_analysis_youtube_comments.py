@@ -5,7 +5,6 @@ import csv
 import nltk
 
 ## Downloads
-# nltk.download("vader_lexicon")
 
 def sepposnegcom(comment_file):
 
