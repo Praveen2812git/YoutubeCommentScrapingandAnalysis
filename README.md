@@ -19,6 +19,7 @@
 - The bug is due to the built of cloud to produce timeout error after 30 seconds.
 
 # To-Do's
+- NLTK used is Vader lexican module, it can be improved by our own NLTK model in machine learning or Deep Learning (Ex: BERT) but the downside is that, we have to collect labelled data to train the model. So, for now Vader lexican module is used.
 - **BUG FIX:** Make the program to stop the scraping and produce the table with the comments that are scraped so far, for every 20 seconds until the scraping is finished fully. (I am new to cloud, not sure if it will work.)
 - Try youtube API for faster comment scraping.
 - If we cannot able to fix the bug, we can make a normal application to run on the local systems(PC Application).
@@ -27,4 +28,3 @@
 - Unnecessary files – Procfile, nltx.txt, requirements.txt, runtime.txt.
 - **NOTE :** If the bug is fixed and you want to run on cloud, these files are necessary.
 - Run the codes in your preferred IDE [I used PyCharm Professional]. It will run fine on local machine.
-- NLTK used is Vader lexican module, it can be improved by our own NLTK model in machine learning or Deep Learning (Ex: BERT) but the downside is that, we have to collect labelled data to train the model. So, for now Vader lexican module is used.
