@@ -35,3 +35,4 @@
 - After Creating Gmail id, Create your App Password and use this generated password in the program, so that google enables you to sign in via bot.
 - Steps to Create App password:
   - Go to manage your google account -> Go to Setting -> Scroll down to find Signing in to Google -> Click App passwords -> Enter password -> Generate your App password.
+- Change Subject of your wish.
