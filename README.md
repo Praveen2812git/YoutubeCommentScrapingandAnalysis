@@ -28,3 +28,10 @@
 - Unnecessary files – Procfile, nltx.txt, requirements.txt, runtime.txt.
 - **NOTE :** If the bug is fixed and you want to run on cloud, these files are necessary.
 - Run the codes in your preferred IDE [I used PyCharm Professional]. It will run fine on local machine.
+
+# Mail Sending File Changes
+-  Create one Gmail ID for sending emails to the user.
+-  **NOTE:** Do not use the password you created when opening the mail-id.
+- After Creating Gmail id, Create your App Password and use this generated password in the program, so that google enables you to sign in via bot.
+- Steps to Create App password:
+  - Go to manage your google account -> Go to Setting -> Scroll down to find Signing in to Google -> Click App passwords -> Enter password -> Generate your App password.
